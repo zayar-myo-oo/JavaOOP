@@ -1,5 +1,6 @@
 import Day1.BankAccount;
 import Day2.MultiplicationTable;
+import Day2.PatternPrint;
 import Day2.SumOfNaturalNumbers;
 
 public class Main {
@@ -14,5 +15,12 @@ public class Main {
 //        System.out.println(sum.sumUsingWhileLoop(5));
 //        MultiplicationTable table = new MultiplicationTable();
 //        table.printMultiplicationTable(5);
+
+        PatternPrint pattern = new PatternPrint();
+        pattern.PatternA();
+        pattern.PatternB();
+        pattern.PatternC();
+        pattern.PatternD();
+        pattern.PatternE();
     }
 }
