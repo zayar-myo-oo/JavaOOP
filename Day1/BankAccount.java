@@ -1,4 +1,4 @@
-package Bank;
+package Day1;
 
 public class BankAccount {
     private double balance;
