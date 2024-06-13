@@ -22,5 +22,6 @@ public class Main {
         pattern.PatternC();
         pattern.PatternD();
         pattern.PatternE();
+        pattern.PatternF();
     }
 }
