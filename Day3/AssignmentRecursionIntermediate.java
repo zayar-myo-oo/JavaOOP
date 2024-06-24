@@ -5,6 +5,11 @@ public class AssignmentRecursionIntermediate {
         AssignmentRecursionIntermediate ass = new AssignmentRecursionIntermediate();
         System.out.println(ass.power(2, 3));
         System.out.println(ass.power(2, -3));
+
+        ass.towerOfHanoi(3,'A','C','B');
+        ass.isPalindrome("racecar");
+        ass.stringToInt("Hello");
+        ass.gcd(3,6);
         }
 
     public double power(double base, int exponent) {
@@ -41,7 +46,7 @@ public class AssignmentRecursionIntermediate {
         towerOfHanoi(n - 1, auxRod, toRod, fromRod);
     }
     public boolean isPalindrome(String s) {
-        if (s.length() == 0 || s.length() == 1) {
+        if (s.isEmpty() || s.length() == 1) {
             return true;
         }
         if (s.charAt(0) != s.charAt(s.length() - 1)) {
